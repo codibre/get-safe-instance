@@ -8,17 +8,17 @@ export function raceFactory<T>(
 ): (...args: any[]) => Promise<T | undefined> {
 	return async (...args) => {
 		let finished = false;
-    let timedOut = false;
+		let timedOut = false;
 		try {
 			return await Promise.race([
 				callback(...args).catch(async (err) => {
-          if (!timedOut) {
-            throw err;
-          }
-        }),
+					if (!timedOut) {
+						throw err;
+					}
+				}),
 				delay(timeout).then(() => {
 					if (!finished) {
-            timedOut = true;
+						timedOut = true;
 						return Promise.reject(new Error('Redis seems to be unavailable'));
 					}
 				}),

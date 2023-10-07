@@ -1,5 +1,5 @@
 {
-  "name": "safe-redis-wrapper",
+  "name": "safe-instance-wrapper",
   "description": "An object wrapper to make its async operations error proof",
   "version": "0.0.0",
   "author": {
@@ -65,11 +65,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codibre/safe-redis-wrapper.git"
+    "url": "https://github.com/codibre/safe-instance-wrapper.git"
   },
-  "homepage": "https://github.com/codibre/safe-redis-wrapper#readme",
+  "homepage": "https://github.com/codibre/safe-instance-wrapper#readme",
   "bugs": {
-    "url": "https://github.com/codibre/safe-redis-wrapper/issues"
+    "url": "https://github.com/codibre/safe-instance-wrapper/issues"
   },
   "keywords": [],
   "license": "MIT",
