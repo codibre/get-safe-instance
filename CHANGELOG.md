@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/codibre/get-safe-instance/compare/v1.0.2...v1.0.3) (2023-10-07)
+
+
+### Bug Fixes
+
+* fixing typedoc generation ([2dc8405](https://github.com/codibre/get-safe-instance/commit/2dc8405bd59d10443c76daded1549d06c4ad5ba0))
+
 ## [1.0.2](https://github.com/codibre/get-safe-instance/compare/v1.0.1...v1.0.2) (2023-10-07)
 
 
