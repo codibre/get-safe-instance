@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/codibre/get-safe-instance/compare/v1.0.1...v1.0.2) (2023-10-07)
+
+
+### Bug Fixes
+
+* fixing prettier ([1963ca2](https://github.com/codibre/get-safe-instance/commit/1963ca2f8250b0f1b6d3383c7087db97c54b7d41))
+
 ## [1.0.1](https://github.com/codibre/get-safe-instance/compare/v1.0.0...v1.0.1) (2023-10-07)
 
 
