@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/codibre/get-safe-instance/compare/v1.0.0...v1.0.1) (2023-10-07)
+
+
+### Bug Fixes
+
+* fixing lint ([54d077c](https://github.com/codibre/get-safe-instance/commit/54d077c6b1bd65f2131fa77d6825f7409a0a239e))
+
 # 1.0.0 (2023-10-07)
 
 
