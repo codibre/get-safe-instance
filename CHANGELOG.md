@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/codibre/get-safe-instance/compare/v1.0.3...v1.0.4) (2023-10-08)
+
+
+### Bug Fixes
+
+* complementing README and defining keywords ([5d57538](https://github.com/codibre/get-safe-instance/commit/5d57538aa1a0e0c9daa83697b00633c7da85b7db))
+
 ## [1.0.3](https://github.com/codibre/get-safe-instance/compare/v1.0.2...v1.0.3) (2023-10-07)
 
 
