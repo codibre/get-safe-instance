@@ -71,7 +71,7 @@
   "bugs": {
     "url": "https://github.com/codibre/get-safe-instance/issues"
   },
-  "keywords": [],
+  "keywords": ["redis", "error", "treatment", "resilience"],
   "license": "MIT",
   "devDependencies": {
     "@codibre/confs": "^1.1.2",

@@ -23,6 +23,10 @@ Just wrap your redis instance and use the wrapped one
 const wrappedRedis = getSafeInstance(someRedisInstance, timeout, ['get', 'getBuffer'], myErrorCallback)
 ```
 
+Now, the wrapped instance will never throw an error during get or getBuffer calls, instead, it will resolve to undefined.
+See that only methods that return promises can be wrapped like that, as, under the hood, we also use [opossum](https://www.npmjs.com/package/opossum) to have a circuit breaker on the given methods, avoiding some calls if constants errors are happening.
+Finally, the given methods will also return undefined if they reach the specified timeout without returning anything.
+
 ## License
 
 Licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License).
